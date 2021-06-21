@@ -2,30 +2,25 @@
 
 body {
 
-    font-family: helvetica;
+    font-family: Arial, helvetica, sans-serif;
 
     margin-bottom: 200px;
 
     background-color: lightGrey;
 
-    color: black;
+    color: #555;
 }
 
 
     .headerContainer {
 
-      width: 100%;
-
-
-      background-color: black;
-
-      color: white;
-
       text-align: center;
 
       margin: 105px 0px;
 
-      padding: 10px 0px;
+
+
+
 
 
 
@@ -64,7 +59,7 @@ color: red;
 
 
 
-a: visited {
+a:visited {
 
 
   color: purple;
@@ -103,6 +98,7 @@ width: 100%;
 
 }
 
+
 .button {
 
 
@@ -113,5 +109,118 @@ width: 100%;
   border-color: white;
 
   width: 15%;
+
+}
+
+
+
+.cricketCountriesInfoContainer {
+
+  float: left;
+
+  width: 50%;
+
+  border: 1px #555 solid ;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  box-sizing: border-box;
+
+
+}
+
+
+.clr {
+
+
+  clear: both;
+}
+
+
+.quotesList {
+
+
+border: 1px black solid;
+
+
+list-style: none;
+
+margin: 10px 0px;
+
+
+padding: 10px;
+
+border-radius: 8px;
+
+
+
+
+
+}
+
+
+
+.myForm {
+
+
+
+      padding: 10px;
+
+      border: 1px black solid;
+
+
+      border-radius: 8px;
+
+
+}
+
+
+
+
+.formElement label {
+
+
+  display: block;
+
+  padding: 5px;
+}
+
+
+
+
+.formElement input[type = "text"]  {
+
+padding: 8px 0px ;
+
+width: 100%;
+
+
+
+}
+
+
+
+
+
+.formElement textarea {
+
+
+
+  width: 100%;
+}
+
+
+
+.formElement input[type = "submit"] {
+
+
+  padding: 4px;
+
+  background-color: white;
+
+
+  border-radius: 6px;
 
 }
