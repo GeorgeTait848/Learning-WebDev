@@ -4,20 +4,20 @@
 <!--this is a comment, use !-- tab to setup a comment-->
 <html>
 
-    <head>
+<head>
 
 
-          <meta charset="utf-8">
+      <meta charset="utf-8">
 
-          <title>George's First WebPage</title>
+      <title>George's First WebPage</title>
 
-          <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-
-
-    </head>
+      <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 
 
-    <body>
+</head>
+
+
+<body>
 
 
 
@@ -26,15 +26,26 @@
 
 
 
-        <div class="headerContainer">
+            <div class="headerContainer">
 
 
 
-            <h1>George Tait Learning Web Development</h1>
+                  <h1>George Tait Learning Web Development</h1>
 
 
 
-        </div>
+            </div>
+
+
+            <nav id = "navbar">
+                  <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact Details</a></li>
+                        <li><a href="#">My CV</a></li>
+                        <li><a href="#">Software Pacakges</a></li>
+                        <li><a href="#">About Me</a></li>
+                  </ul>
+            </nav>
 
 
 
@@ -43,40 +54,40 @@
 
 
             <ul>
-              <li>United Kingdom</li>
-              <li>Australia</li>
+                  <li>United Kingdom</li>
+                  <li>Australia</li>
             </ul>
 
 
             <div class="cricketCountriesInfoContainer">
 
-              <h2>Australia</h2>
+                  <h2>Australia</h2>
 
-              <p>Here is the australian Flag:</p>
-
-
-
-              <img src="Images/Aus-Flag.png" alt="">
+                  <p>Here is the australian Flag:</p>
 
 
 
+                  <img src="Images/Aus-Flag.png" alt="">
 
-              <p>To learn more about Australia, <a href="https://en.wikipedia.org/wiki/Australia" target="_blank">See the wikipedia page</a></p>
+
+
+
+                  <p>To learn more about Australia, <a href="https://en.wikipedia.org/wiki/Australia" target="_blank">See the wikipedia page</a></p>
 
             </div>
 
             <div class="cricketCountriesInfoContainer">
 
-              <h2>UK</h2>
+                  <h2>UK</h2>
 
 
-              <p>Here is the UK Flag</p>
+                  <p>Here is the UK Flag</p>
 
 
 
-              <img src="Images/UK-Flag.png" alt="">
+                  <img src="Images/UK-Flag.png" alt="">
 
-              <p>To learn more about the UK, <a href="https://en.wikipedia.org/wiki/United_Kingdom" target="_blank">See the wikipedia page</a></p>
+                  <p>To learn more about the UK, <a href="https://en.wikipedia.org/wiki/United_Kingdom" target="_blank">See the wikipedia page</a></p>
 
 
 
@@ -93,21 +104,91 @@
 
             <div class="box1">
 
-              <ul class="quotesList">
+                  <ul class="quotesList">
 
-                <li>“Pain and suffering are always inevitable for a large intelligence and a deep heart.”</li>
-                <li> “I did not bow down to you, I bowed down to all the suffering of humanity.”</li>
-                <li>“We’re always thinking of eternity as an idea that cannot be understood, something immense. But why must it be? What if, instead of all this, you suddenly find just a little room there, something like a village bath-house, grimy, and spiders in every corner, and that’s all eternity is. Sometimes, you know, I can’t help feeling that that’s what it is.”
-
-- Raskolnikov.</li>
-
-              </ul>
+                        <li>“Pain and suffering are always inevitable for a large intelligence and a deep heart.”</li>
 
 
+                        <li> “I did not bow down to you, I bowed down to all the suffering of humanity.”</li>
+
+
+                        <li>“We’re always thinking of eternity as an idea that cannot be understood, something immense.
+                        But why must it be? What if, instead of all this, you suddenly find just a little room there,
+                        something like a village bath-house, grimy, and spiders in every corner, and that’s all eternity is.
+                         Sometimes, you know, I can’t help feeling that that’s what it is.” - Raskolnikov.
+                        </li>
+
+
+                  </ul>
 
 
 
 
+
+
+
+
+                  </div>
+
+
+
+
+
+
+                  <div>
+
+                        <form class="myForm" action="formData.html" method="post">
+
+                              <div class="formElement">
+
+
+                                    <label>Name:</label>
+
+
+                                    <input type="text" name="name" value="">
+
+
+
+                              </div>
+
+
+                              <div class="formElement">
+
+
+
+
+                                    <label>Age:</label>
+
+
+                                    <input type="text" name="age" value="">
+
+
+                              </div>
+
+
+                              <div class="formElement">
+
+
+
+                                    <label>Message:</label>
+
+                                    <textarea name="messageArea" ></textarea>
+
+
+                              </div>
+
+
+                              <div class="formElement">
+
+                                    <input type="submit" name="" value="Submit">
+
+                              </div>
+
+
+
+                        </form>
+
+                  </div>
 
 
             </div>
@@ -117,72 +198,9 @@
 
 
 
-            <div>
-
-              <form class="myForm" action="formData.html" method="post">
-
-                <div class="formElement">
 
 
-                      <label>Name:</label>
+      </body>
 
 
-                      <input type="text" name="name" value="">
-
-
-
-                </div>
-
-
-                <div class="formElement">
-
-
-
-
-                    <label>Age:</label>
-
-
-                    <input type="text" name="age" value="">
-
-
-                </div>
-
-
-                <div class="formElement">
-
-
-
-                    <label>Message:</label>
-
-                    <textarea name="messageArea" ></textarea>
-
-
-                </div>
-
-
-                <div class="formElement">
-
-                  <input type="submit" name="" value="Submit">
-
-                </div>
-
-
-
-              </form>
-
-            </div>
-
-
-      </div>
-
-
-
-
-
-
-
-
-    </body>
-
-
-</html>
+      </html>
