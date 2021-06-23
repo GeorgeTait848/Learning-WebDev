@@ -2,34 +2,43 @@
 
 body {
 
-    font-family: Arial, helvetica, sans-serif;
+      font-family: serif, "Times New Roman";
 
-    margin-bottom: 200px;
 
-    background-image: url('../Images/background.jpg');
+      margin-bottom: 200px;
+      background: white;
 
-    background-position: center;
 
-    background-size: cover;
+      color: black;
 
-    color: black;
+      margin-top: 0px;
+      margin-left: 0px;
+
+}
+
+h2 {
+
+
+      font-weight: normal;
 }
 
 
-    .headerContainer {
+#navbar {
 
-      text-align: center;
+      border: 1px solid black;
 
-      margin: 105px 0px;
+      background-color: black;
+
+      padding: 35px 5px;
+
+      width: 100%;
+      margin: 0px;
 
 
 
 
+}
 
-
-
-
-    }
 
 
     #navbar li {
@@ -39,28 +48,122 @@ body {
           list-style: none;
 
           display: inline;
+
+
    }
 
 
    #navbar a {
 
 
+      height: 100%;
 
 
-         border: 1px black solid;
+      color: white;
 
-         border-radius: 4px;
+      padding: 10px 10px;
 
-         margin: 5px 5px;
+      float: right;
 
-         padding: 4px 8px;
 
-         background: white;
 
-         border-shadow: 2px 2px black;
+
 
 
    }
+
+   #navbar a:hover {
+
+
+         background-color: white;
+
+         color: black;
+
+
+   }
+
+
+   #showcase {
+
+
+
+
+         width: 100%;
+
+
+         background-image: url('../Images/Business-background-showcase.png');
+
+
+         background-position: center;
+
+         background-size: cover;
+
+         background-repeat: no-repeat;
+
+         margin: 0px;
+
+
+
+
+
+         height: 200px;
+
+
+   }
+
+
+   #showcase h2 {
+
+
+         margin-top: 0px;
+
+         color: white;
+
+         font-weight: normal;
+
+         padding: 20px;
+
+
+
+
+
+   }
+
+
+
+    #myHeader {
+
+      text-align: center;
+
+      width: 100%;
+
+
+      padding: 25px 10px;
+
+
+
+
+      background-position: center;
+
+      background-size: cover;
+
+
+
+    }
+
+    header h1 {
+
+
+          font-weight: normal;
+
+
+   }
+
+
+
+
+
+
 
 
 
@@ -141,14 +244,31 @@ a:visited {
 
   border: 1px #555 solid ;
 
-  padding: 10px;
+
 
   border-radius: 8px;
 
   box-sizing: border-box;
 
-  background: lightgrey;
+background: silver;
 
+
+}
+
+.cricketCountriesInfoContainer h2 {
+
+
+      background: black;
+
+      color: Silver;
+
+      margin: 0px;
+
+      padding: 10px 0px;
+
+      width: 100%;
+
+      border-radius: 8px;
 
 }
 
@@ -162,7 +282,7 @@ a:visited {
 
 .quotesList {
 
-background: lightgrey;
+background: MediumTurquoise;
 border: 1px black solid;
 
 
@@ -185,7 +305,7 @@ border-radius: 8px;
 
 .myForm {
 
-background: lightgrey;
+background: MediumTurquoise;
 
       padding: 10px;
 
@@ -194,7 +314,7 @@ background: lightgrey;
 
       border-radius: 8px;
 
-      box-shadow: 2px -2px 2px grey, -1px 2px 2px black;
+      box-shadow: 2px -2px 2px darkgray, -1px 2px 2px black;
 
 
 }
